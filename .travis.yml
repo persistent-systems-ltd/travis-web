@@ -21,9 +21,10 @@ install:
 services:
   - ember serve
 
-#script:
-#  - npm test
-#  - ember test
+script:
+  - npm test
+  - ember test
+  - ember test --serve
 
 notifications:
   campfire:

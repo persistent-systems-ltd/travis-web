@@ -16,9 +16,9 @@ before_install:
 install:
   - npm install -g bower
   - npm install
-  - bower install ember-data --save
+  - bower install 
 
-services:
+server:
   - ember serve
 
 script:

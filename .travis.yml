@@ -24,6 +24,7 @@ services:
 
 script:
   - npm test
+  - ember test
 
 notifications:
   campfire:

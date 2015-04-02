@@ -19,6 +19,9 @@ install:
   - npm install
   - bower install
 
+services:
+  - ember serve
+
 script:
   - npm test
 

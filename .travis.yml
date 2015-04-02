@@ -16,7 +16,7 @@ before_install:
 install:
   - npm install -g bower
   - npm install
-  - bower install
+  - bower install ember-data --save
 
 services:
   - ember serve
@@ -24,7 +24,6 @@ services:
 script:
   - npm test
   - ember test
-  - ember test --serve
 
 notifications:
   campfire:
